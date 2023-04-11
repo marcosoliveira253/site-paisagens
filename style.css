@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row *{
+    padding: 0px 0px;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav .nav-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    color: ghostwhite;
+    margin-left: 10px;
+}
+
+#quemSomos {
+    height: 100vh;
+    padding: 20px 0;
+}
+
+#quemSomos h2 {
+    margin: 20px;
+}
+
+#quemSomos p {
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.images {
+    background-color: #ccc;
+}
+.image img {
+    width: 100%;
+    height: 200px;
+}
+
+.images h2{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.image p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.text-center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.text-center p {
+    margin-left: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+  }
+  
+
+@media (min-width: 960px) {
+    #quemSomos {
+        display: flex;
+        align-items: center;
+    }
+}
